@@ -68,6 +68,19 @@
     margin: auto;
 }
 
+.container .header-bg-container .logo {
+    display: inline-block;
+    position: relative;
+    color: #FF6735;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 40px;
+    left: 20px;
+    text-shadow: #2b2b2b 1px 1px 7px;
+}
+
 .container nav {
     background-color: #FF6735;
 }

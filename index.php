@@ -11,12 +11,13 @@
     <div class="container bottom-triangle">
         <nav>
             <ul> 
-                <li><a href="default.asp">ABOUT US</a></li>
-                <li><a href="news.asp">NEWS</a></li>
-                <li><a href="contact.asp">CONTACT</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
         <header class="header-bg-container width-container">
+            <a href="#" class="logo">LOGO</a>
             <div class="cover-img">
                 <div class="cover-title"><h1>Lorem ipsum dolor consectetur</h1></div>
                 <div class="btn">
