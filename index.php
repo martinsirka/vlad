@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+        crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <div class="container bottom-triangle">
         <nav>
             <ul> 
+                <a href="#" class="logo">LOGO</a>
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
         <header class="header-bg-container width-container">
-            <a href="#" class="logo">LOGO</a>
             <div class="cover-img">
                 <div class="cover-title"><h1>Lorem ipsum dolor consectetur</h1></div>
                 <div class="btn">
