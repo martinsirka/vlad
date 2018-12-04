@@ -317,3 +317,111 @@ footer .adress p {
     font-size: 13px;
     font-weight: bold;
 }
+
+/* RESPONDIVE */
+
+@media(max-width: 1280px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 768px) {
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .cover-img .btn {
+        width: 40%;
+    }
+
+    main .our-work-section ul {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        margin: 0 180px;
+        grid-gap: 40px;
+        padding-bottom: 30px;
+    }
+
+    .container nav ul {
+        width: 100%;
+    }
+
+    .width-container {
+        width: 100%;
+    }
+
+    main .who-are-we-section ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px 170px;
+        grid-gap: 30px;
+    }
+
+}
+
+@media(max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .cover-title h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    header .cover-img .btn {
+        width: 65%;
+    }
+
+    main .our-work-section ul {
+        grid-template-columns: 1fr;
+        display: grid;
+        list-style-type: none;
+        margin: 0 150px;
+        grid-gap: 40px;
+        padding-bottom: 30px;
+    }
+
+    .container nav ul {
+        width: 100%;
+    }
+
+    .width-container {
+        width: 100%;
+    }
+
+    main .who-are-we-section ul {
+        margin: auto;
+        grid-gap: 30px;
+        padding: 0 35px;
+    }
+
+    main .who-are-we-section img {
+        border-radius: 50%;
+        width: 40%;
+        margin: 10px;
+    }
+
+    footer .adress p {
+        background-color: #bdbdbd;
+        text-align: center;
+        color: #5c5c5c;
+        font-family: var(--main-font);
+        padding: 50px 50px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+}
